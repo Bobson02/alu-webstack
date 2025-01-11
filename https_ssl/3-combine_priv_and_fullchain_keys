@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+sudo cat /etc/letsencrypt/live/bobdev.tech/fullchain.pem \
+    /etc/letsencrypt/live/bobdev.tech/privkey.pem \
+    | sudo tee /etc/ssl_cert/bobdev.tech/bobdev.tech.pem
